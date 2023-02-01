@@ -11,7 +11,7 @@ const Introduction = () => {
       <div className={Styles.Content_Container}>
         <div className={Styles.About_Container}>
           <p className={Styles.Question}>Who We Are</p>
-          <p className={Styles.Brand}>D & E Marina</p>
+          {/* <p className={Styles.Brand}>D & E Marina</p> */}
           <p className={Styles.Description}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
             consectetur? Voluptates placeat nesciunt rem doloribus quae eos

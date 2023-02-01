@@ -12,7 +12,7 @@ const Tour = () => {
   const [data, setData] = useState(TourData);
   return   <div className={"Section_Slim"}>
   <div className={Sec_Title_Styles.Section_Title_Container}>
-   <p className={Sec_Title_Styles.Question}>Tour</p>
+   <p className={Sec_Title_Styles.Question}>Walkaround</p>
    <p className={Sec_Title_Styles.Section_Title}>Tour Our Facilities</p>
  </div>
 

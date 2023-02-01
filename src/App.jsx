@@ -15,6 +15,7 @@ import GetInTouch from "./Components/Other/GetInTouch";
 // Page imports Start
 import Home from "./Routes/Home";
 import About from "./Routes/About";
+import Conswains from "./Routes/Conswains";
 import Contact from "./Routes/Contact";
 // Page imports End
 
@@ -26,6 +27,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path={"/"} element={<Home />} />
+          <Route path={"conswains training"} element={<Conswains />} />
         </Routes>
         <Map />
         <GetInTouch />

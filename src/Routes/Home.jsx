@@ -8,7 +8,7 @@ import Introduction from "../Sections/Introduction";
 import Offer from "../Sections/Offer";
 import Tour from "../Sections/Tour";
 import ProjectsSection from "../Sections/ProjectsSection";
-import Coxswains from "../Sections/Coxswains";
+import CoxswainsImplore from "../Sections/CoxswainsImplore";
 import StaffSection from "../Sections/StaffSection";
 // Page Section Import End
 
@@ -18,12 +18,12 @@ const Home = () => {
   TabTitle("MBYC | Home");
   return (
     <div className={"Page"}>
-      <PageHead Image={""} Title={"D & E Marina"} />
+      <PageHead Image={""} Title={"D & E Marine LTD"} />
       <Introduction />
       <Offer />
       <ProjectsSection />
       <Tour />
-      <Coxswains />
+      <CoxswainsImplore />
       <StaffSection />
     </div>
   );

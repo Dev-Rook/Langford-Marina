@@ -3,13 +3,12 @@ import { Link } from "react-router-dom";
 import useScrollUp from "../Hooks/useScrollUp";
 
 import "../Styles/Global.css";
-import Styles from "../Styles/Section-Styles/Coxswains.module.scss";
-import Sec_Title_Styles from "../Styles/_SectionTitle.module.scss";
+import Styles from "../Styles/Section-Styles/ConxswainsSyllabus.module.scss";
 import Card_Styles from "../Styles/_CardGrid.module.scss";
 
 import Tour from "../Data/Tour.json";
 
-const Coxswains = () => {
+const ConxswainsSyllabus = () => {
   const [data, setData] = useState(Tour);
   return (
     <div className={"Section_Slim"}>
@@ -17,7 +16,7 @@ const Coxswains = () => {
         <img src={``} alt="" className={Styles.Section_Image} />
       </div>
 
-      <p className={Styles.Section_Title}>Coxswians License</p>
+      <p className={Styles.Section_Title}>Conxswains License Training</p>
       <p className={Styles.Section_Description}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
         voluptatem mollitia expedita officiis consequuntur at consequatur qui
@@ -28,7 +27,7 @@ const Coxswains = () => {
       </p>
 
       <div className={Card_Styles.Content_Container}>
-        {data.map((value) => {
+        {data.slice(0, 3).map((value) => {
           return (
             <div className={Card_Styles.Card} key={value.id}>
               <img src={value.Icon} alt="" className={Card_Styles.Icon} />
@@ -42,4 +41,4 @@ const Coxswains = () => {
   );
 };
 
-export default Coxswains;
+export default ConxswainsSyllabus;
