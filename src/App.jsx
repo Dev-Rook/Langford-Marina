@@ -8,6 +8,8 @@ import NavigationIcon from "@mui/icons-material/Navigation";
 // Component Imports Start
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import Map from "./Components/Other/Map";
+import GetInTouch from "./Components/Other/GetInTouch";
 // Component Imports End
 
 // Page imports Start
@@ -25,11 +27,13 @@ function App() {
         <Routes>
           <Route path={"/"} element={<Home />} />
         </Routes>
+        <Map />
+        <GetInTouch />
         <Footer />
       </BrowserRouter>
       <NavigationIcon
         onClick={scrollUp}
-        sx={{ fontSize: 30, color: "white" }}
+        sx={{ fontSize: 30, color: "orange" }}
         className={`${Styles.Back_To_Top_Icon} ${
           backToTop ? Styles.Show_Back_To_Top : ""
         }`}

@@ -1,36 +1,30 @@
-
-import React, { useState } from "react";
+import React from "react";
 import { TabTitle } from "../Utilities/TabTitle";
-import PageHead from "../Components/Main/PageHead";
-import Styles from "../Styles/Route-Styles/Home.module.scss";
+import PageHead from "../Components/PageHead";
+import "../Styles/Global.css"
 
 // Page Section Import Start
-// import Hero from "../Page-Sections/Hero";
-import Introduction from "../Page-Sections/Introduction";
-import PlanToVisit from "../Page-Sections/PlanToVisit";
-import Offer from "../Page-Sections/Offer";
-import Tour from "../Page-Sections/Tour";
-import BecomeAMember from "../Page-Sections/BecomeAMember";
-import Updates from "../Page-Sections/Updates";
-import Weather from "../Page-Sections/Weather";
-import Staff from "../Page-Sections/Staff";
+import Introduction from "../Sections/Introduction";
+import Offer from "../Sections/Offer";
+import Tour from "../Sections/Tour";
+import ProjectsSection from "../Sections/ProjectsSection";
+import Coxswains from "../Sections/Coxswains";
+import StaffSection from "../Sections/StaffSection";
 // Page Section Import End
 
-import ManCigar from "../Assets/Images/Man-Cigar.jpeg"
+// import ManCigar from "../Assets/Images/Man-Cigar.jpeg"
 
-const Home = (scrollUp) => {
+const Home = () => {
   TabTitle("MBYC | Home");
   return (
-    <div className={Styles.Page}>
-      <PageHead Image={ManCigar} Title={"Montego Bay Yact Club"} />
-      <Introduction scroll={scrollUp} />
+    <div className={"Page"}>
+      <PageHead Image={""} Title={"D & E Marina"} />
+      <Introduction />
       <Offer />
-      <PlanToVisit scroll={scrollUp} />
+      <ProjectsSection />
       <Tour />
-      <BecomeAMember scroll={scrollUp} />
-      <Updates />
-      <Weather />
-      <Staff scroll={scrollUp} />
+      <Coxswains />
+      <StaffSection />
     </div>
   );
 };

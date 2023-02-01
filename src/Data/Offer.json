@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "Icon": "",
+        "Title": "Great Facilities",
+        "Description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae vero voluptates culpa quia quod exercitationem possimus sequi facilis quas non?"
+    },
+    {
+        "id": 2,
+        "Icon": "",
+        "Title": "Sailing",
+        "Description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae vero voluptates culpa quia quod exercitationem possimus sequi facilis quas non?"
+    },
+    {
+        "id": 3,
+        "Icon": "",
+        "Title": "Fishing",
+        "Description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae vero voluptates culpa quia quod exercitationem possimus sequi facilis quas non?"
+    },
+    {
+        "id": 4,
+        "Icon": "",
+        "Title": "Restaurant & Bar",
+        "Description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae vero voluptates culpa quia quod exercitationem possimus sequi facilis quas non?"
+    },
+    {
+        "id": 5,
+        "Preview": "",
+        "Title": "Title",
+        "Description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, aliquam."
+    },
+    {
+        "id": 6,
+        "Preview": "",
+        "Title": "Title",
+        "Description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, aliquam."
+    }
+]

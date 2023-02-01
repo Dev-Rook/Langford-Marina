@@ -1,0 +1,43 @@
+.Section_Title_Container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0px;
+  gap: 10px;
+
+  justify-content: center;
+  align-items: center;
+
+  height: fit-content;
+  width: 100%;
+
+  .Question {
+    font-size: 18px;
+    font-weight: 100;
+    font-style: bold;
+    transition: 0.3s;
+  }
+
+  .Section_Title {
+    font-size: 50px;
+    font-weight: 100;
+    font-style: bold;
+    transition: 0.3s;
+  }
+}
+
+@media only screen and (max-width: 996px) {
+  .Section_Title_Container {
+    .Section_Title {
+      font-size: 30px;
+    }
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .Section_Title_Container {
+    .Section_Title {
+      font-size: 25px;
+    }
+  }
+}
