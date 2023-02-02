@@ -7,9 +7,10 @@ import "../Styles/Global.css"
 import Introduction from "../Sections/Introduction";
 import Offer from "../Sections/Offer";
 import Tour from "../Sections/Tour";
+import WorkWithUs from "../Sections/WorkWithUs";
 import ProjectsSection from "../Sections/ProjectsSection";
 import CoxswainsImplore from "../Sections/CoxswainsImplore";
-import StaffSection from "../Sections/StaffSection";
+// import StaffSection from "../Sections/StaffSection";
 // Page Section Import End
 
 // import ManCigar from "../Assets/Images/Man-Cigar.jpeg"
@@ -21,10 +22,11 @@ const Home = () => {
       <PageHead Image={""} Title={"D & E Marine LTD"} />
       <Introduction />
       <Offer />
+      <WorkWithUs />
       <ProjectsSection />
       <Tour />
       <CoxswainsImplore />
-      <StaffSection />
+      {/* <StaffSection /> */}
     </div>
   );
 };

@@ -1,0 +1,63 @@
+.Content_Container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+
+  position: relative;
+
+  justify-content: space-around;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+  .Card {
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1px solid black;
+
+    gap: 0px;
+    padding: 0px;
+
+    height: fit-content;
+    width: fit-content;
+
+    .Image_Container {
+      position: relative;
+      display: flex;
+
+      overflow: hidden;
+
+      justify-content: center;
+      align-items: center;
+
+      height: 500px;
+      width: 250px;
+
+      .Image {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: 0.5s;
+      }
+    }
+
+    .Informations_Container {
+      display: flex;
+      flex-direction: column;
+
+      background-color: rgb(15, 38, 61);
+      border: 1px solid black;
+
+      justify-content: space-evenly;
+      align-items: flex-start;
+
+      padding: 5px;
+      gap: 10px;
+
+      height: 120px;
+      width: 100%;
+    }
+  }
+}

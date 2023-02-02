@@ -1,7 +1,7 @@
 .Navbar {
   display: flex;
 
-  background-color: rgba(36, 36, 36, 1);
+  background-color: rgb(15,38,61);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   backdrop-filter: 5px;
 
@@ -80,7 +80,7 @@
   //   Mobile Menu Start
   .Mobile_Menu {
     display: none;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgb(15,38,61);
     backdrop-filter: blur(10px);
 
     position: absolute;
@@ -179,6 +179,7 @@
 
 @media only screen and (max-width: 996px) {
   .Navbar {
+    padding: 0px;
     .Left_Side {
       .Navlink_Container {
         display: none;
@@ -215,7 +216,6 @@
 
 @media only screen and (max-width: 480px) {
   .Navbar {
-    padding: 10px;
     .Mobile_Menu {
       .ListGroup {
         height: 90%;

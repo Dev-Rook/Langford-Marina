@@ -53,6 +53,12 @@ const Navbar = () => {
           <Link to={"About"} onClick={scrollUp} className={Styles.Navlink}>
             About
           </Link>
+          <Link to={"Projects"} onClick={scrollUp} className={Styles.Navlink}>
+            Projects
+          </Link>
+          <Link to={"conswains training"} onClick={scrollUp} className={Styles.Navlink}>
+            Coxswians
+          </Link>
           <Link to={"Contact"} onClick={scrollUp} className={Styles.Navlink}>
             Contact
           </Link>

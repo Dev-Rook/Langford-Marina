@@ -15,6 +15,7 @@ import GetInTouch from "./Components/Other/GetInTouch";
 // Page imports Start
 import Home from "./Routes/Home";
 import About from "./Routes/About";
+import Projects from "./Routes/Projects";
 import Conswains from "./Routes/Conswains";
 import Contact from "./Routes/Contact";
 // Page imports End
@@ -27,10 +28,14 @@ function App() {
         <Navbar />
         <Routes>
           <Route path={"/"} element={<Home />} />
+          <Route path={"about"} element={<About />} />
+          <Route path={"project"} element={<Projects />} />
           <Route path={"conswains training"} element={<Conswains />} />
+          <Route path={"contact"} element={<Contact />} />
         </Routes>
         <Map />
-        <GetInTouch />
+        {/* <GetInTouch /> */}
+        <iframe src="https://danielrook.substack.com/embed" width="480" height="320"  frameborder="0" scrolling="no"></iframe>
         <Footer />
       </BrowserRouter>
       <NavigationIcon
