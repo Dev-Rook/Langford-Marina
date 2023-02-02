@@ -10,6 +10,7 @@
 
   height: 100%;
   width: 100%;
+
   .Card {
     display: flex;
     flex-direction: column;
@@ -19,31 +20,34 @@
 
     gap: 0px;
     padding: 0px;
+    margin: auto;
+
 
     height: fit-content;
     width: fit-content;
 
     .Image_Container {
-      position: relative;
       display: flex;
+      position: relative;
+
+      border: 1px solid black;
 
       overflow: hidden;
 
       justify-content: center;
       align-items: center;
 
-      height: 500px;
-      width: 250px;
+      height: 300px;
+      width: 100%;
 
       .Image {
         height: 100%;
         width: 100%;
-        object-fit: cover;
-        transition: 0.5s;
+
       }
     }
 
-    .Informations_Container {
+    .Information_Box {
       display: flex;
       flex-direction: column;
 
@@ -53,10 +57,12 @@
       justify-content: space-evenly;
       align-items: flex-start;
 
+      color: white;
+
       padding: 5px;
       gap: 10px;
 
-      height: 120px;
+      height: 100%;
       width: 100%;
     }
   }
