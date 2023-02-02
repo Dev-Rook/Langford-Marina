@@ -49,32 +49,26 @@
 // Media Queries Start
 
 @media only screen and (max-width: 810px) {
-  .Section {
-    .Content_Container {
-      width: 100%;
-    }
+  .Content_Container {
+    width: 100%;
   }
 }
 
 @media only screen and (max-width: 550px) {
-  .Section {
-    .Content_Container {
-      .Title {
-        font-size: 35px;
-      }
-      .Description {
-        font-size: 15px;
-      }
+  .Content_Container {
+    .Title {
+      font-size: 35px;
+    }
+    .Description {
+      font-size: 15px;
     }
   }
 }
 
 @media only screen and (max-width: 320px) {
-  .Section {
-    .Content_Container {
-      .Description {
-        font-size: 13px;
-      }
+  .Content_Container {
+    .Description {
+      font-size: 13px;
     }
   }
 }

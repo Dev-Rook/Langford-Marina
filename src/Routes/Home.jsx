@@ -16,7 +16,7 @@ import CoxswainsImplore from "../Sections/CoxswainsImplore";
 // import ManCigar from "../Assets/Images/Man-Cigar.jpeg"
 
 const Home = () => {
-  TabTitle("MBYC | Home");
+  TabTitle("D & E | Home")
   return (
     <div className={"Page"}>
       <PageHead Image={""} Title={"D & E Marine LTD"} />

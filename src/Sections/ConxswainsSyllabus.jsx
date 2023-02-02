@@ -31,7 +31,7 @@ const ConxswainsSyllabus = () => {
           return (
             <div className={Card_Styles.Card} key={value.id}>
               <div className={Card_Styles.Image_Container}>
-               {/* <img src="" alt="" className={Card_Styles.Image} /> */}
+               <img src={value.Image} alt="" className={Card_Styles.Image} />
               </div>
               <div className={Card_Styles.Information_Box}>
                 <p className={Card_Styles.Title}>{value.Title}</p>

@@ -25,7 +25,7 @@ const ProjectsSection = () => {
           <p className={Styles.Small_Text}>Work / Projects</p>
           <p className={Styles.Large_Text}>Project Gallery</p>
 
-          <Link to={"Projects"}>
+          <Link to={"/projects"}>
             <button className={Styles.Staff_Button}>View All</button>
           </Link>
         </div>

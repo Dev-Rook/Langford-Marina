@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
+import { TabTitle } from "../Utilities/TabTitle";
 
 const Staff = () => {
-  return (
-    <div>Staff</div>
-  )
-}
+  TabTitle("D & E | Staff");
+  return <div>Staff</div>;
+};
 
-export default Staff
+export default Staff;

@@ -4,7 +4,7 @@ import useScrollUp from "../Hooks/useScrollUp";
 
 import "../Styles/Global.css";
 import Sec_Title_Styles from "../Styles/_SectionTitle.module.scss";
-import Card_Styles from "../Styles/_CardGrid.module.scss";
+import Card_Styles from "../Styles/_ServiceCard2.module.scss";
 
 import Offerdata from "../Data/Offer.json";
 
@@ -22,9 +22,13 @@ const Offer = () => {
           data.map((value) => {
             return (
               <div className={Card_Styles.Card} key={value.id}>
-                <img src={value.Icon} alt="" className={Card_Styles.Icon} />
-                {/* <p className={Card_Styles.Title}>{value.Title}</p>
-                <p className={Card_Styles.Description}>{value.Description}</p> */}
+                <div className={Card_Styles.Image_Container}>
+                  <img src={value.Image} alt="" className={Card_Styles.Image} />
+                </div>
+                <div className={Card_Styles.Information_Box}>
+                  <p className={Card_Styles.Title}>{value.Title}</p>
+                  <p className={Card_Styles.Description}>{value.Description}</p>
+                </div>
               </div>
             );
           })}

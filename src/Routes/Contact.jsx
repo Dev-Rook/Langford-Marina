@@ -7,6 +7,7 @@ import PageHeadMini from "../Components/PageHeadMini";
 import ContactForm from "../Components/Other/ContactForm";
 
 const Contact = () => {
+  TabTitle("D & E | Contact")
   return (
     <div className={"Page"}>
       <PageHeadMini />

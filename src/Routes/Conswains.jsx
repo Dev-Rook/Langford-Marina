@@ -6,6 +6,7 @@ import "../Styles/Global.css"
 import ConxswainsSyllabus from '../Sections/ConxswainsSyllabus';
 
 const Conswains = () => {
+  TabTitle("D & E | Coxswains")
   return (
     <div className={"Page"}>
       <ConxswainsSyllabus />
