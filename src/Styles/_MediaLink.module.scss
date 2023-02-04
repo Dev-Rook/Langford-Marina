@@ -1,0 +1,23 @@
+.Media_Link_Container {
+  display: flex;
+
+  border: 1px solid rgba(0, 0, 0, 0.5);
+
+  padding: 5px;
+  gap: 20px;
+
+  justify-content: center;
+  align-items: center;
+
+  height: fit-content;
+  width: fit-content;
+
+  a {
+    cursor: pointer;
+
+    .Icon {
+      height: 30px;
+      width: 30px;
+    }
+  }
+}

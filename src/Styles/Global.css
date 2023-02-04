@@ -54,8 +54,34 @@
   width: 1000px;
 }
 
+.Section_Project {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+
+  justify-content: center;
+  align-items: left;
+
+  gap: 20px;
+
+  padding: 5px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  overflow: hidden;
+
+  height: fit-content;
+  width: 800px;
+}
+
 @media only screen and (max-width: 1000px) {
   .Section_Slim {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .Section_Project {
     width: 100%;
   }
 }

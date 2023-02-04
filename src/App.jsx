@@ -1,4 +1,4 @@
-import React, { useState, useEffect, lazy, Suspense } from "react";
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import useScrollUp from "./Hooks/useScrollUp";
 import Styles from "./App.module.scss";
@@ -9,7 +9,6 @@ import NavigationIcon from "@mui/icons-material/Navigation";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Map from "./Components/Other/Map";
-import GetInTouch from "./Components/Other/GetInTouch";
 // Component Imports End
 
 // Page imports Start
@@ -34,7 +33,6 @@ function App() {
           <Route path={"contact"} element={<Contact />} />
         </Routes>
         <Map />
-        {/* <GetInTouch /> */}
         <Footer />
       </BrowserRouter>
       <NavigationIcon
