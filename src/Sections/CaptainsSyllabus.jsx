@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 import useScrollUp from "../Hooks/useScrollUp";
 
 import "../Styles/Global.css";
-import Styles from "../Styles/Section-Styles/ConxswainsSyllabus.module.scss";
+import Styles from "../Styles/Section-Styles/CaptainsSyllabus.module.scss";
 import Card_Styles from "../Styles/_ServiceCard.module.scss";
 
 import Coxswains from "../Data/Coxswains.json";
 
-const ConxswainsSyllabus = () => {
+const CaptainsSyllabus = () => {
   const [data, setData] = useState(Coxswains);
   return (
     <div className={"Section_Slim"}>
@@ -45,4 +45,4 @@ const ConxswainsSyllabus = () => {
   );
 };
 
-export default ConxswainsSyllabus;
+export default CaptainsSyllabus;

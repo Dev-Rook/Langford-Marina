@@ -55,22 +55,16 @@
 }
 
 .Section_Project {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
 
-  position: relative;
-
-  justify-content: center;
-  align-items: left;
-
-  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
 
   padding: 5px;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  overflow: hidden;
 
-  height: fit-content;
+  height: 100%;
   width: 800px;
 }
 

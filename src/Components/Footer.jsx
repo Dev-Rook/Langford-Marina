@@ -7,7 +7,7 @@ const Footer = (scrollUp) => {
     <div className={Styles.Footer}>
       <div className={Styles.Information_Section}>
         <div className={Styles.About_Box}>
-          <p className={Styles.Title}>Montego Bay Yacht Club</p>
+          <p className={Styles.Title}>D & E Marine</p>
 
           <p className={Styles.About}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
@@ -37,48 +37,7 @@ const Footer = (scrollUp) => {
           </div>
         </div>
       </div>
-
-      <div className={Styles.Map_Container}></div>
-
-      <ul className={Styles.Navlink_Container}>
-        <li>
-          <Link to={"/"} className={Styles.Navlink} onClick={scrollUp}>
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link to={"About"} className={Styles.Navlink} onClick={scrollUp}>
-            About
-          </Link>
-        </li>
-        <li>
-          <Link to={"Vidit"} className={Styles.Navlink} onClick={scrollUp}>
-            Vist
-          </Link>
-        </li>
-        <li>
-          <Link to={"Sailing"} className={Styles.Navlink} onClick={scrollUp}>
-            Sailing
-          </Link>
-        </li>
-        <li>
-          <Link to={"Fishing"} className={Styles.Navlink} onClick={scrollUp}>
-            Fishing
-          </Link>
-        </li>
-        <li>
-          <Link to={"Articles"} className={Styles.Navlink} onClick={scrollUp}>
-            Articles
-          </Link>
-        </li>
-        <li>
-          <Link to={"Contact"} className={Styles.Navlink} onClick={scrollUp}>
-            Contact
-          </Link>
-        </li>
-      </ul>
-
-      <p className={Styles.Copyright_Tag}>© 2023 Hopewell High</p>
+      <p className={Styles.Copyright_Tag}>© 2023 D & E Marine</p>
     </div>
   );
 };

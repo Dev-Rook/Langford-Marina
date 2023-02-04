@@ -3,7 +3,7 @@ import { TabTitle } from "../Utilities/TabTitle";
 import PageHeadMini from "../Components/PageHeadMini";
 
 import "../Styles/Global.css";
-import Styles from "../Styles/Section-Styles/ConxswainsSyllabus.module.scss";
+import Styles from "../Styles/Section-Styles/CaptainsSyllabus.module.scss";
 import MediaLink from "../Styles/_MediaLink.module.scss";
 import Card_Styles from "../Styles/_ServiceCard2.module.scss";
 
