@@ -56,8 +56,8 @@ const Navbar = () => {
           <Link to={"Projects"} onClick={scrollUp} className={Styles.Navlink}>
             Projects
           </Link>
-          <Link to={"conswains training"} onClick={scrollUp} className={Styles.Navlink}>
-            Coxswians
+          <Link to={"captains license"} onClick={scrollUp} className={Styles.Navlink}>
+          Captain's License
           </Link>
           <Link to={"Contact"} onClick={scrollUp} className={Styles.Navlink}>
             Contact
@@ -98,10 +98,9 @@ const Navbar = () => {
           <Link
             onClick={doubleFunction}
             className={Styles.Navlink}
-            to={"About"}
+            to={"about"}
           >
             <ListGroup.Item className={Styles.ListGroupItem}>
-              {/* <InfoIcon sx={{ color: "White", fontSize: 25 }} /> */}
               About
             </ListGroup.Item>
           </Link>
@@ -109,59 +108,27 @@ const Navbar = () => {
           <Link
             onClick={doubleFunction}
             className={Styles.Navlink}
-            to={"Visit"}
+            to={"projects"}
           >
             <ListGroup.Item className={Styles.ListGroupItem}>
-              {/* <AssignmentIcon sx={{ color: "White", fontSize: 25 }} /> */}
-              Visit
+
+              projects
             </ListGroup.Item>
           </Link>
 
           <Link
             onClick={doubleFunction}
             className={Styles.Navlink}
-            to={"Sailing"}
+            to={"captains license"}
           >
             <ListGroup.Item className={Styles.ListGroupItem}>
-              {/* <FolderIcon sx={{ color: "White", fontSize: 25 }} /> */}
-              Sailing
-            </ListGroup.Item>
-          </Link>
-
-          <Link
-            onClick={doubleFunction}
-            className={Styles.Navlink}
-            to={"Fishing"}
-          >
-            <ListGroup.Item className={Styles.ListGroupItem}>
-              {/* <ArticleIcon sx={{ color: "White", fontSize: 25 }} /> */}
-              Fishing
+              Captain's License
             </ListGroup.Item>
           </Link>
           <Link
             onClick={doubleFunction}
             className={Styles.Navlink}
-            to={"Membership"}
-          >
-            <ListGroup.Item className={Styles.ListGroupItem}>
-              {/* <CallIcon sx={{ color: "white", fontSize: 25 }} /> */}
-              Membership
-            </ListGroup.Item>
-          </Link>
-          <Link
-            onClick={doubleFunction}
-            className={Styles.Navlink}
-            to={"Articles"}
-          >
-            <ListGroup.Item className={Styles.ListGroupItem}>
-              {/* <CallIcon sx={{ color: "white", fontSize: 25 }} /> */}
-              Articles
-            </ListGroup.Item>
-          </Link>
-          <Link
-            onClick={doubleFunction}
-            className={Styles.Navlink}
-            to={"Contact"}
+            to={"contact"}
           >
             <ListGroup.Item className={Styles.ListGroupItem}>
               {/* <CallIcon sx={{ color: "white", fontSize: 25 }} /> */}
@@ -169,23 +136,6 @@ const Navbar = () => {
             </ListGroup.Item>
           </Link>
         </ListGroup>
-
-        <div className={Styles.Contact_Information_Box}>
-          <div className={Styles.Contact_item}>
-            <p className={Styles.Title}>Yacht Club</p>
-            <p className={Styles.Text}>221 B Baker Street</p>
-          </div>
-          <div className={Styles.Contact_item}>
-            <p className={Styles.Title}>Contact</p>
-            <p className={Styles.Text}>1 876 192 1680</p>
-            <p className={Styles.Text}>mbyc@gmail.com</p>
-          </div>
-          <div className={Styles.Contact_item}>
-            <p className={Styles.Title}>Social Media</p>
-            <p className={Styles.Text}>Twitter</p>
-            <p className={Styles.Text}>Facebook</p>
-          </div>
-        </div>
       </div>
       {/* Mobile Menu End */}
     </nav>
