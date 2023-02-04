@@ -11,7 +11,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import BrightnessMediumIcon from "@mui/icons-material/BrightnessMedium";
 
 import Hamburger from "hamburger-react";
-import ListGroup from "react-bootstrap/ListGroup";
+import ListGroup from 'react-bootstrap/ListGroup';
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
