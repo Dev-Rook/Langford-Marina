@@ -1,0 +1,87 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  height: fit-content;
+  width: 100%;
+
+  transition: .3s;
+
+  .Image_Container {
+    display: flex;
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+
+    .Image {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      transition: 0.5s ease-in-out;
+    }
+  }
+
+  .Information_Box {
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid black;
+    background-color: rgb(15,38,61);
+    color: white;
+
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    padding: 20px 20px;
+    gap: 15px;
+
+    height: 100%;
+    width: 100%;
+
+    .Title {
+      font-size: 25px;
+    }
+
+    .Text {
+      font-size: 15px;
+    }
+
+    .Links_Container {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+
+      .Text {
+        color: white;
+      }
+    }
+  }
+}
+
+.Card:is(:hover) {
+    transform: translateY(-3px);
+    .Image_Container {
+        .Image {
+            transform: scale(1.1);
+        }
+    }
+}
+
+@media only screen and (max-width: 360px) {
+  .Card {
+    .Image_Container {
+      height: 200px;
+    }
+
+    .Information_Box {
+      gap: 10px;
+
+      .Title {
+        font-size: 20px;
+      }
+    }
+  }
+}

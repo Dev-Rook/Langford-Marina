@@ -1,6 +1,6 @@
 import React from "react";
 import { TabTitle } from "../Utilities/TabTitle";
-import PageHead from "../Components/PageHead";
+import PageHeadMini from "../Components/PageHeadMini";
 import "../Styles/Global.css";
 
 import History from "../Sections/History";
@@ -11,7 +11,7 @@ const About = () => {
   TabTitle("D & E | About");
   return (
     <div className={"Page"}>
-      <PageHead Image={""} Title={"About D & E"} />
+      <PageHeadMini Image={""} Title={"About D & E"} />
       <AboutIntroduction />
       {/* <History /> */}
       <AboutInfo />

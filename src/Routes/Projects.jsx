@@ -5,11 +5,11 @@ import PageHeadMini from "../Components/PageHeadMini";
 import "../Styles/Global.css";
 import Styles from "../Styles/Section-Styles/CaptainsSyllabus.module.scss";
 import MediaLink from "../Styles/_MediaLink.module.scss";
-import Card_Styles from "../Styles/_ServiceCard2.module.scss";
+import Card_Styles from "../Styles/_ProjectCard.module.scss";
 
-import Newsletter from "../Assets/Icons/Newsletter.png"
-import YouTube from "../Assets/Icons/YouTube.png"
-import Instagram from "../Assets/Icons/Instagram.png"
+import Newsletter from "../Assets/Icons/Newsletter.png";
+import YouTube from "../Assets/Icons/YouTube.png";
+import Instagram from "../Assets/Icons/Instagram.png";
 
 import ProjectData from "../Data/Projects.json";
 
@@ -20,46 +20,39 @@ const Projects = () => {
     <div className={"Page"}>
       <PageHeadMini />
       <div className={"Section_Project"}>
-        {data?.map((info) => {
+        {data?.slice(0, 1).map((info) => {
           return (
-            <div key={info.id}>
-              <div className={Styles.Section_Image_Container}>
-                <img
-                  src={info.Preview}
-                  alt=""
-                  className={Styles.Section_Image}
-                />
+            <div className={Card_Styles.Card}>
+              <div className={Card_Styles.Image_Container}>
+                <img src="" alt="" className={Card_Styles.Image} />
               </div>
 
-              <p className={Styles.Section_Title}>{info.Title}</p>
-              <br />
-              <hr />
-              <br />
-              <p className={Styles.Section_Description}>{info.Description}</p>
-              <br />
+              <div className={Card_Styles.Information_Box}>
+                <p className={Card_Styles.Title}>Lorem ipsum dolor sit amet.</p>
+                <p className={Card_Styles.Text}>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed
+                  reprehenderit soluta nostrum recusandae, natus voluptatibus
+                  neque, quas unde necessitatibus, animi nam non quam aliquid
+                  distinctio....
+                </p>
 
-              <div className={MediaLink.Media_Link_Container}>
-                <a
-                  href={info.Links.Substack}
-                  target={"_blank"}
-                  rel={"noreferrer"}
-                >
-                  <img src={Newsletter} alt="" className={MediaLink.Icon} />
-                </a>
-                <a
-                  href={info.Links.YouTube}
-                  target={"_blank"}
-                  rel={"noreferrer"}
-                >
-                  <img src={YouTube} alt="" className={MediaLink.Icon} />
-                </a>
-                <a
-                  href={info.Links.Instagram}
-                  target={"_blank"}
-                  rel={"noreferrer"}
-                >
-                  <img src={Instagram} alt="" className={MediaLink.Icon} />
-                </a>
+                <div className={Card_Styles.Links_Container}>
+                  <a
+                    href={info.Links.Substack}
+                    target={"_blank"}
+                    rel={"noreferrer"}
+                  >
+                    <p className={Card_Styles.Text}>Substack</p>
+                  </a>
+                  |
+                  <a
+                    href={info.Links.YouTube}
+                    target={"_blank"}
+                    rel={"noreferrer"}
+                  >
+                    <p className={Card_Styles.Text}>YouTube</p>
+                  </a>
+                </div>
               </div>
             </div>
           );
