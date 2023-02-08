@@ -50,16 +50,19 @@ const Navbar = () => {
           <Link to={"/"} onClick={scrollUp} className={Styles.Navlink}>
             Home
           </Link>
-          <Link to={"About"} onClick={scrollUp} className={Styles.Navlink}>
+          <Link to={"about"} onClick={scrollUp} className={Styles.Navlink}>
             About
           </Link>
-          <Link to={"Projects"} onClick={scrollUp} className={Styles.Navlink}>
+          <Link to={"projects"} onClick={scrollUp} className={Styles.Navlink}>
             Projects
           </Link>
-          <Link to={"captains license"} onClick={scrollUp} className={Styles.Navlink}>
-          Captain's License
+          <Link to={"services"} onClick={scrollUp} className={Styles.Navlink}>
+            Services
           </Link>
-          <Link to={"Contact"} onClick={scrollUp} className={Styles.Navlink}>
+          {/* <Link to={"captains license"} onClick={scrollUp} className={Styles.Navlink}>
+          Captain's License
+          </Link> */}
+          <Link to={"contact"} onClick={scrollUp} className={Styles.Navlink}>
             Contact
           </Link>
         </div>
@@ -115,8 +118,18 @@ const Navbar = () => {
               projects
             </ListGroup.Item>
           </Link>
-
           <Link
+            onClick={doubleFunction}
+            className={Styles.Navlink}
+            to={"services"}
+          >
+            <ListGroup.Item className={Styles.ListGroupItem}>
+
+              Services
+            </ListGroup.Item>
+          </Link>
+
+          {/* <Link
             onClick={doubleFunction}
             className={Styles.Navlink}
             to={"captains license"}
@@ -124,7 +137,7 @@ const Navbar = () => {
             <ListGroup.Item className={Styles.ListGroupItem}>
               Captain's License
             </ListGroup.Item>
-          </Link>
+          </Link> */}
           <Link
             onClick={doubleFunction}
             className={Styles.Navlink}

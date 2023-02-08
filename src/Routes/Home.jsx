@@ -4,6 +4,7 @@ import PageHead from "../Components/PageHead";
 import "../Styles/Global.css"
 
 // Page Section Import Start
+import Hero from "../Sections/Hero";
 import Introduction from "../Sections/Introduction";
 import Offer from "../Sections/Offer";
 import Tour from "../Sections/Tour";
@@ -19,7 +20,7 @@ const Home = () => {
   TabTitle("D & E | Home")
   return (
     <div className={"Page"}>
-      <PageHead Image={""} Title={"D & E Marine LTD"} />
+      <Hero  />
       <Introduction />
       <Offer />
       <WorkWithUs />

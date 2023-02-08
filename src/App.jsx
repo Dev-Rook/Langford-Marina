@@ -15,7 +15,7 @@ import Map from "./Components/Other/Map";
 import Home from "./Routes/Home";
 import About from "./Routes/About";
 import Projects from "./Routes/Projects";
-import Conswains from "./Routes/Conswains";
+import Services from "./Routes/Services";
 import Contact from "./Routes/Contact";
 // Page imports End
 
@@ -29,10 +29,10 @@ function App() {
           <Route path={"/"} element={<Home />} />
           <Route path={"about"} element={<About />} />
           <Route path={"projects"} element={<Projects />} />
-          <Route path={"captains license"} element={<Conswains />} />
+          <Route path={"services"} element={<Services />} />
           <Route path={"contact"} element={<Contact />} />
         </Routes>
-        <Map />
+        {/* <Map /> */}
         <Footer />
       </BrowserRouter>
       <NavigationIcon

@@ -1,0 +1,32 @@
+.Section {
+  display: flex;
+
+  border-radius: 5px;
+
+  justify-content: center;
+  align-items: center;
+
+//   padding: 80px;
+
+  height: 100vh;
+  width: 100%;
+
+  .Hero_Content_Container {
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Section {
+    height: 300px;
+  }
+}

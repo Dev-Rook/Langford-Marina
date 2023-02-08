@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import useScrollUp from "../Hooks/useScrollUp";
 import Styles from "../Styles/Section-Styles/ProjectsSection.module.scss";
 
 // Import Swiper React components
@@ -18,6 +19,7 @@ import ProjectsData from "../Data/Projects.json";
 
 const ProjectsSection = () => {
   const [data, setData] = useState(ProjectsData);
+  const {scrollUp} = useScrollUp();
   return (
     <div className={Styles.Section}>
       <div className={Styles.Section}>
@@ -25,8 +27,8 @@ const ProjectsSection = () => {
           <p className={Styles.Small_Text}>Work / Projects</p>
           <p className={Styles.Large_Text}>Project Gallery</p>
 
-          <Link to={"/projects"}>
-            <button className={Styles.Staff_Button}>View All</button>
+          <Link  to={"/projects"}>
+            <button onClick={scrollUp} className={Styles.Staff_Button}>View All</button>
           </Link>
         </div>
 

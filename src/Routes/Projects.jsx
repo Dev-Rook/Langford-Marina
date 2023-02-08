@@ -20,7 +20,7 @@ const Projects = () => {
     <div className={"Page"}>
       <PageHeadMini />
       <div className={"Section_Project"}>
-        {data?.slice(0, 1).map((info) => {
+        {data?.slice(0, 3).map((info) => {
           return (
             <div className={Card_Styles.Card}>
               <div className={Card_Styles.Image_Container}>
