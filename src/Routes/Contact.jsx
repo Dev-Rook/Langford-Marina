@@ -10,7 +10,7 @@ const Contact = () => {
   TabTitle("D & E | Contact")
   return (
     <div className={"Page"}>
-      <PageHeadMini />
+      {/* <PageHeadMini /> */}
       <ContactForm />
     </div>
   )

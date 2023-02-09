@@ -12,7 +12,7 @@ const Services = () => {
   TabTitle("D & E | Services");
   return (
     <div className={"Page"}>
-      <PageHeadMini Image={""} Title={"Services"} />
+      {/* <PageHeadMini Image={""} Title={"Services"} /> */}
       <AboutIntroduction />
       {/* <History /> */}
       <AboutInfo />

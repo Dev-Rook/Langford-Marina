@@ -9,7 +9,7 @@ const About = () => {
   TabTitle("D & E | About");
   return (
     <div className={"Page"}>
-      <PageHeadMini Title={"About Us"} />
+      {/* <PageHeadMini Title={"About Us"} /> */}
       <YouTubeBox />
     </div>
   );

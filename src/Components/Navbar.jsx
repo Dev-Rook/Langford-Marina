@@ -75,7 +75,7 @@ const Navbar = () => {
           <InstagramIcon sx={{ color: "white" }} />
         </div>
         |
-        <BrightnessMediumIcon sx={{ color: "white" }} />
+        {/* <BrightnessMediumIcon sx={{ color: "white" }} /> */}
         <span className={Styles.Span}>
           <Hamburger
             className={Styles.HamburgerMenu}

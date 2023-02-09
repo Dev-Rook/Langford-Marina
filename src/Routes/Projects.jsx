@@ -18,11 +18,11 @@ const Projects = () => {
   const [data, setData] = useState(ProjectData);
   return (
     <div className={"Page"}>
-      <PageHeadMini />
+      {/* <PageHeadMini /> */}
       <div className={"Section_Project"}>
         {data?.slice(0, 3).map((info) => {
           return (
-            <div className={Card_Styles.Card}>
+            <div className={Card_Styles.Card} key={info.id}>
               <div className={Card_Styles.Image_Container}>
                 <img src="" alt="" className={Card_Styles.Image} />
               </div>

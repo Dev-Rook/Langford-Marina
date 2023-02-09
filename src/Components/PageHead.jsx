@@ -2,11 +2,13 @@ import React from "react";
 import { motion } from "framer-motion";
 import Styles from "../Styles/Component-Styles/PageHead.module.scss";
 
-const PageHead = ({ Image, Title, Video }) => {
+import Image from "../Assets/Images/Seaview Diving Bell.jpg"
+
+const PageHead = () => {
   return (
     <div className={Styles.Section}>
       <div className={Styles.Content_Container}>
-        <p className={Styles.Large_Text}>{Title}</p>
+        <p className={Styles.Large_Text}>D&E Marine</p>
       </div>
 
       <div className={Styles.Diffuser}></div>

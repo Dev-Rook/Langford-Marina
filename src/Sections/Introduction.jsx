@@ -4,6 +4,8 @@ import useScrollUp from "../Hooks/useScrollUp";
 import "../Styles/Global.css";
 import Styles from "../Styles/Section-Styles/Introduction.module.scss";
 
+import YouTubeBox from "../Components/Other/YouTubeBox"
+
 const Introduction = () => {
   const { scrollUp } = useScrollUp();
   return (
@@ -18,20 +20,14 @@ const Introduction = () => {
             libero eveniet et.
           </p>
 
-          <Link to={"About"}>
+          {/* <Link to={"About"}>
             <button onClick={scrollUp} className={Styles.Read_More_Button}>
               Read More
             </button>
-          </Link>
+          </Link> */}
         </div>
         <div className={Styles.Image_Container}>
-          <img
-            src={
-              "https://github.com/Dev-Rook/yacht-club/blob/master/src/Assets/Images/ClubFlag.jpeg?raw=true"
-            }
-            alt=""
-            className={Styles.Image}
-          />
+          <YouTubeBox />
         </div>
       </div>
     </div>
