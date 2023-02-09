@@ -17,7 +17,7 @@ const WorkWithUs = () => {
           molestiae.
         </p>
 
-        <Link to={"work with us"}>
+        <Link to={"/contact"}>
           <button onClick={scrollUp} className={Styles.Contact_Button}>
             Get In Touch
           </button>
