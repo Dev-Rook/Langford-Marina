@@ -10,7 +10,7 @@ import Offer from "../Sections/Offer";
 import Tour from "../Sections/Tour";
 import WorkWithUs from "../Sections/WorkWithUs";
 import ProjectsSection from "../Sections/ProjectsSection";
-import CoxswainsImplore from "../Sections/CoxswainsImplore";
+import CaptainsImplore from "../Sections/CaptainsImplore";
 // import StaffSection from "../Sections/StaffSection";
 // Page Section Import End
 
@@ -26,7 +26,7 @@ const Home = () => {
       <WorkWithUs />
       <ProjectsSection />
       <Tour />
-      <CoxswainsImplore />
+      <CaptainsImplore />
       {/* <StaffSection /> */}
     </div>
   );

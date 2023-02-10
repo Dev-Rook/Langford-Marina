@@ -16,12 +16,12 @@ const AboutIntroduction = () => {
 
       <p className={Styles.Section_Title}>Work Platforms</p>
       <p className={Styles.Section_Description}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-        voluptatem mollitia expedita officiis consequuntur at consequatur qui
-        explicabo recusandae quae corrupti velit commodi, similique quibusdam
-        amet placeat, consectetur asperiores minus sequi eveniet earum alias
-        culpa doloremque accusantium. Ipsum numquam, mollitia quo aliquam et
-        quod perspiciatis reprehenderit exercitationem soluta delectus dolorem.
+        D&E Marine Ltd’s work is based off a shallow water draught, twin
+        outboard engined Bhuler 42 workboat platform registered as “The Kraken”.
+        The vessel can deliver services to any navigable location islandwide
+        (weather conditions pending). The vessel is configured with an aluminium
+        A-frame and a lift out hatch at the bow, along with an electric winch,
+        all of which facilitate lifting and beaching
       </p>
 
       <div className={Card_Styles.Content_Container}>

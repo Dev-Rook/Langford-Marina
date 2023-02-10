@@ -8,7 +8,7 @@ import NavigationIcon from "@mui/icons-material/Navigation";
 // Component Imports Start
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
-import Map from "./Components/Other/Map";
+// import Map from "./Components/Other/Map";
 // Component Imports End
 
 // Page imports Start

@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 import useScrollUp from "../Hooks/useScrollUp";
 import Styles from "../Styles/_ImploreSection.module.scss";
 
-const CoxswainsImplore = () => {
+const CaptainsImplore = () => {
   const {scrollUp} = useScrollUp();
   return (
     <div className={"Section"}>
       <div className={Styles.Content_Container}>
-        <h1 className={Styles.Title}>Interested In A Coxswains license?</h1>
+        <h1 className={Styles.Title}>Interested In A Captains license?</h1>
 
         <p className={Styles.Description}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nobis
@@ -16,7 +16,7 @@ const CoxswainsImplore = () => {
           molestiae.
         </p>
 
-        <Link to={"conswains training"}>
+        <Link to={"captain training"}>
           <button onClick={scrollUp} className={Styles.Contact_Button}>
             Learn More
           </button>
@@ -26,4 +26,4 @@ const CoxswainsImplore = () => {
   );
 };
 
-export default CoxswainsImplore;
+export default CaptainsImplore;
