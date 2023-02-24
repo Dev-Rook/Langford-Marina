@@ -23,25 +23,11 @@ const AboutInfo = () => {
             <br />
             <p className={Styles.Section_Description}>{info.Description}</p>
             <br />
-
-            {/* <div className={MediaLink.Media_Link_Container}>
-              <a href={info.Links.Substack} target={"_blank"} rel={"noreferrer"}>
-                <span></span>
-              </a>
-              <a href={info.Links.YouTube} target={"_blank"} rel={"noreferrer"}>
-                <span></span>
-              </a>
-              <a href={info.Links.Instagram} target={"_blank"} rel={"noreferrer"}>
-                <span></span>
-              </a>
-            </div> */}
           </div>
         );
       })}
     </div>
   );
 };
-
-
 
 export default AboutInfo;
